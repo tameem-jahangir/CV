@@ -47,7 +47,7 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 max-w-xl mx-auto'>
             Digital Engineering student with a passion for Software Development. Interests
 include <span className='text-teal-500'>Machine Learning</span>, <span className='text-teal-500'>Data Science</span>, <span className='text-teal-500'>Data Analysis</span>, <span className='text-teal-500'>Software Development</span>  and <span className='text-teal-500'>Web Development</span>. I am a confident communicator, and a strategic
-thinker to develop software that is customized to meet a company's organizational
+thinker to develop software that is customized to meet a company\'s organizational
 needs, highlight their core competencies and further their success.
             </p>
           </div>
