@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import {  AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
-import deved from '../public/dev-ed-wave.png';
+import deved from '../public/deved.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
@@ -23,9 +23,9 @@ export default function Home() {
         <section className='h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons'>Developed by TJ</h1>
-            <ul className='flrx items-center'>
+            <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" /></li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="linkforlinkedin">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://drive.google.com/file/d/1qpuj-rgczm_lXqEaDmiExmOL6c7V_TGD/view?usp=share_link">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -34,36 +34,76 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Computer Science student with a passion for software development.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillLinkedin />
+            <a href="https://linkedin.com/in/tameem-jahangir-17a5b722b"><AiFillLinkedin /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-            <Image src={deved} fill alt="3d image of TJ"/>
+            <Image src={deved} fill alt="Image of TJ"/>
           </div>
         </section>
 
         <section>
-          <div className='text-center'>
-            <h3 className='text-3xl py-1'>Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
-              CV intro goes here.
+          <div className='text-center my-10'>
+            <h3 className='text-3xl py-1'>Introduction</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 max-w-xl mx-auto'>
+            Digital Engineering student with a passion for Software Development. Interests
+include <span className='text-teal-500'>Machine Learning</span>, <span className='text-teal-500'>Data Science</span>, <span className='text-teal-500'>Data Analysis</span>, <span className='text-teal-500'>Software Development</span>  and <span className='text-teal-500'>Web Development</span>. I am a confident communicator, and a strategic
+thinker to develop software that is customized to meet a company's organizational
+needs, highlight their core competencies and further their success.
             </p>
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={design} width={100} height={100} alt="Design 3d image."/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Hydrogen Life Cycle</h3>
-              <p className='py-2'>
-                Team Project description goes here
+              <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>Hydrogen Life Cycle</a></h3>
+              <p className='py-2 max-w-xl'>
+                This project is a Windows and Mac based application focusing on the industrial-scale visualization of the green hydrogen technology. It shows the whole process
+                from, generating electricity from wind to production and use case of hydrogen fuel. The main objective is to provide a user with the basic understanding of each
+                individual component and its role in green hydrogen production.
+              </p>
+              <h4 className='py-4 text-teal-600 '> using:</h4>
+              <ul className='text-gray-900'>
+                <li>Unity</li>
+                <li>Blender</li>
+              </ul>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} alt="Design 3d image."/>
+              <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>CE-NBI Classification using CNN</a></h3>
+              <p className='py-2 max-w-xl'>
+              The objective of this project is to use an ensemble of deep learning models to identify benign
+and malignant laryngeal cancer cells. There are three main Deep Learning models used for
+this project consisting of EfficientNetB0V2, ResNet50V2 and DenseNet121. A dataset of
+images containing the CE-NBI of multiple patients are used to train a model which would
+then give the final result as benign or malignant.
               </p>
               <h4 className='py-4 text-teal-600 '>Made using:</h4>
-              <p className='text-gray-800 py-1'>Unity</p>
-
+              <ul className='text-gray-900'>
+                <li>Unity</li>
+                <li>Blender</li>
+              </ul>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} alt="Design 3d image."/>
+              <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>CE-NBI Classification using CNN</a></h3>
+              <p className='py-2 max-w-xl'>
+              The objective of this project is to use an ensemble of deep learning models to identify benign
+and malignant laryngeal cancer cells. There are three main Deep Learning models used for
+this project consisting of EfficientNetB0V2, ResNet50V2 and DenseNet121. A dataset of
+images containing the CE-NBI of multiple patients are used to train a model which would
+then give the final result as benign or malignant.
+              </p>
+              <h4 className='py-4 text-teal-600 '>Made using:</h4>
+              <ul className='text-gray-900'>
+                <li>Unity</li>
+                <li>Blender</li>
+              </ul>
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Portofolio</h3>
+            <h3 className='text-3xl py-1'></h3>
+            <p></p>
           </div>
         </section>
       </main>
