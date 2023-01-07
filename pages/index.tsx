@@ -79,11 +79,6 @@ then give the final result as benign or malignant. The project was made using Py
               A search engine where the user can provide queries and the result is clustered using the Carrot2 API. The result is clustered using the most common words and grouped together.
               The project was built using flask and Python.  
               </p>
-              <h4 className='py-4 text-teal-600 '>Made using:</h4>
-              <ul className='text-gray-900'>
-                <li>Unity</li>
-                <li>Blender</li>
-              </ul>
             </div>
           </div>
         </section>
