@@ -3,9 +3,9 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import {  AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/deved.png';
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
+import cnn from '../public/cnn.png';
+import green from '../public/green_hydrogen.png';
+import search from '../public/search.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -53,7 +53,7 @@ needs, highlight their core competencies and further their success.
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} alt="Design 3d image."/>
+              <Image src={green} width={100} height={100} alt="Design 3d image."/>
               <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>Hydrogen Life Cycle</a></h3>
               <p className='py-2 max-w-xl'>
                 This project is a Windows and Mac based application focusing on the industrial-scale visualization of the green hydrogen technology. It shows the whole process
@@ -62,7 +62,7 @@ needs, highlight their core competencies and further their success.
               </p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} alt="Design 3d image."/>
+              <Image src={cnn} width={100} height={100} alt="Design 3d image."/>
               <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>CE-NBI Classification using CNN</a></h3>
               <p className='py-2 max-w-xl'>
               The objective of this project is to use an ensemble of deep learning models to identify benign
@@ -73,7 +73,7 @@ then give the final result as benign or malignant. The project was made using Py
               </p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} alt="Design 3d image."/>
+              <Image src={search} width={100} height={100} alt="Design 3d image."/>
               <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>Search engine with result clustering.</a></h3>
               <p className='py-2 max-w-xl'>
               A search engine where the user can provide queries and the result is clustered using the Carrot2 API. The result is clustered using the most common words and grouped together.
