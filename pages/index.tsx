@@ -58,13 +58,8 @@ needs, highlight their core competencies and further their success.
               <p className='py-2 max-w-xl'>
                 This project is a Windows and Mac based application focusing on the industrial-scale visualization of the green hydrogen technology. It shows the whole process
                 from, generating electricity from wind to production and use case of hydrogen fuel. The main objective is to provide a user with the basic understanding of each
-                individual component and its role in green hydrogen production.
+                individual component and its role in green hydrogen production. This project used Unity, Blender and GitLab.
               </p>
-              <h4 className='py-4 text-teal-600 '> using:</h4>
-              <ul className='text-gray-900'>
-                <li>Unity</li>
-                <li>Blender</li>
-              </ul>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={design} width={100} height={100} alt="Design 3d image."/>
@@ -74,23 +69,15 @@ needs, highlight their core competencies and further their success.
 and malignant laryngeal cancer cells. There are three main Deep Learning models used for
 this project consisting of EfficientNetB0V2, ResNet50V2 and DenseNet121. A dataset of
 images containing the CE-NBI of multiple patients are used to train a model which would
-then give the final result as benign or malignant.
+then give the final result as benign or malignant. The project was made using Python.
               </p>
-              <h4 className='py-4 text-teal-600 '>Made using:</h4>
-              <ul className='text-gray-900'>
-                <li>Unity</li>
-                <li>Blender</li>
-              </ul>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={design} width={100} height={100} alt="Design 3d image."/>
-              <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>CE-NBI Classification using CNN</a></h3>
+              <h3 className='text-lg font-medium pt-8 pb-2'><a href='https://github.com/tameem-jahangir/VisualisationOfHydrogenLifeCycle'>Search engine with result clustering.</a></h3>
               <p className='py-2 max-w-xl'>
-              The objective of this project is to use an ensemble of deep learning models to identify benign
-and malignant laryngeal cancer cells. There are three main Deep Learning models used for
-this project consisting of EfficientNetB0V2, ResNet50V2 and DenseNet121. A dataset of
-images containing the CE-NBI of multiple patients are used to train a model which would
-then give the final result as benign or malignant.
+              A search engine where the user can provide queries and the result is clustered using the Carrot2 API. The result is clustered using the most common words and grouped together.
+              The project was built using flask and Python.  
               </p>
               <h4 className='py-4 text-teal-600 '>Made using:</h4>
               <ul className='text-gray-900'>
