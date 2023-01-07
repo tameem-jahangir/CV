@@ -36,8 +36,8 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <a href="https://linkedin.com/in/tameem-jahangir-17a5b722b"><AiFillLinkedin /></a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden sd:w-40 sd:h-40'>
-            <Image src={deved} fill alt="Image of TJ"/>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image className='object-contain' src={deved} fill alt="Image of TJ"/>
           </div>
         </section>
 
