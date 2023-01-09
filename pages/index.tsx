@@ -25,7 +25,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>Developed by TJ</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" /></li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://drive.google.com/file/d/1qpuj-rgczm_lXqEaDmiExmOL6c7V_TGD/view?usp=share_link">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://drive.google.com/file/d/1HQdkCu8DP6D7aaK9Y39kRn5lf4IfTwit/view?usp=sharing">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -33,11 +33,11 @@ export default function Home() {
             <h3 className='text-2xl py-2 md:text-3xl'>Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Computer Science student with a passion for software development.</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <a href="https://linkedin.com/in/tameem-jahangir-17a5b722b"><AiFillLinkedin /></a>
-          </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image className='object-contain' src={deved} fill alt="Image of TJ"/>
+          </div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+            <a href="https://linkedin.com/in/tameem-jahangir-17a5b722b"><AiFillLinkedin /></a>
           </div>
         </section>
 
